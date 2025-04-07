@@ -10,10 +10,10 @@ sns.set_style("whitegrid")
 plt.rcParams['font.size'] = 12
 
 # Define file paths
-jobs_path = '/Users/patriciaquigley/Desktop/JobAnalytics/MY-DATABASE - CONTRACTED JOBS.csv'
-logs_path = '/Users/patriciaquigley/Desktop/JobAnalytics/MY-DATABASE - LOGS.csv'
-labs_path = '/Users/patriciaquigley/Desktop/JobAnalytics/MY-DATABASE - LABS.csv'
-reocc_path = '/Users/patriciaquigley/Desktop/JobAnalytics/MY-DATABASE - REOCCUPANCY.csv'
+jobs_path = 'MY-DATABASE - CONTRACTED JOBS.csv'
+logs_path = 'MY-DATABASE - LOGS.csv'
+labs_path = 'MY-DATABASE - LABS.csv'
+reocc_path = 'MY-DATABASE - REOCCUPANCY.csv'
 
 # Load raw data
 jobs = pd.read_csv(jobs_path)
