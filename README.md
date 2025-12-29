@@ -1,8 +1,8 @@
-# 📊 SAI Job Cost vs Revenue Analytics Dashboard (Excel Data Model)
+# 📊 Job Cost vs Revenue Analytics Dashboard (Excel Data Model)
 
 ## Project Overview
 
-This project was initiated to solve a **critical operational gap** at SAI:  
+This project was initiated to solve a **critical operational gap** at my company:  
 
 There was **no centralized, structured system** for tracking job-level cost vs revenue. Handling multiple technicians, lab facilities, and reoccupancies per job was complex, and the company lacked a reliable way to answer key questions such as:
 - How much does each job actually cost?
@@ -17,7 +17,7 @@ I took ownership of building a **clean, scalable Excel-based analytics system** 
 
 - Establish a **job-centric data model** for analysis
 - Track **actual internal costs** (labor + labs)
-- Track **client billing amounts** (SCA)
+- Track **client billing amounts** (primary client)
 - Enable **technician-level cost analysis**
 - Quantify **job duration and operational complexity**
 - Lay the foundation for margin and profitability reporting
@@ -75,7 +75,7 @@ One row per sample collected.
 - `Date_Collected`
 - `Technician`
 - `Batch_No` – Unique lab batch identifier
-- `Lab Cost` – Actual cost paid by SAI (calculated)
+- `Lab Cost` – Actual cost paid by the company (calculated)
 
 **Helper Columns**
 - `Code`  
@@ -119,7 +119,7 @@ Purpose:
 ### Pricing / Business Rules Table
 
 #### `tblLabPrices`
-Centralized pricing logic (what SAI pays vs what SCA is billed).
+Centralized pricing logic (what we pay vs what the primary client is billed).
 
 **Columns**
 - `CODE`
@@ -152,7 +152,7 @@ Purpose:
 
 ## 📈 Outcomes
 
-- For the first time, SAI can:
+- For the first time, my company can:
   - See **true job cost**
   - Compare **actual cost vs billed revenue**
   - Identify margin leakage
