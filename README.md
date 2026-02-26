@@ -167,4 +167,4 @@ A visual overview of how the project progressed from initial data gathering to a
 
 ---
 
-This project has been **an amazing journey**, combining **data wrangling, modeling, analytics, and automation**. From messy Excel downloads to a functioning, scalable KPI dashboard, it reflects **a full end-to-end analytics workflow** and my growth as a data professional.
+This project has been **an amazing journey**, combining **data wrangling, modeling, analytics, and automation**. From messy Excel downloads to a functioning, scalable KPI dashboard, it reflects **a full end-to-end analytics workflow** and my growth as a data professional!
