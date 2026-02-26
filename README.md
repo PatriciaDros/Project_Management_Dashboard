@@ -122,7 +122,7 @@ A visual overview of how the project progressed from initial data gathering to a
 | VBA Pipeline Development                   | Week 10+  | Auto-detect downloads, clean & transform data, implement automation module      |
 | Advanced Dashboards & Features             | Month 6+  | Add operational timeline, technician trends, margin alerts, historical tracking |
 
-![Gantt Timeline](./images/sai_dashboard_gantt.png)
+![Gantt Timeline](./SAI_job_lab_analytics_timeline.png)
 
 ---
 
